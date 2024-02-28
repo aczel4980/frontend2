@@ -29,7 +29,7 @@ app.post('/register', validate, (req, res) => {
   res.send(`Email: ${email}<br>Tel: ${tel}`);
 });
 
-const PORT = 3000;
+const PORT = 80;
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
